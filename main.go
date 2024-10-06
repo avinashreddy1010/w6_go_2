@@ -12,6 +12,7 @@ type Student struct {
 	ID      int    `json:"id"`
 	Name    string `json:"name"`
 	Program string `json:"program"`
+	College string `json:"college"`
 }
 
 var students []Student
